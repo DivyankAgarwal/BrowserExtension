@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Privacy Policy Detection",
+    "version": "1.0",
+    "description": "Privacy Policy Sumarization and Identification of unfair Clauses", 
+    "icons":{
+        "16":"icons/shield-16.png",
+        "32":"icons/shield-32.png"
+    },
+    "permissions":[
+        "activeTab"
+    ],
+    "browser_action":{
+        "default_popup":"static/popup.html",
+        "default_icon": "icons/shield-32.png"
+    },
+    "content_scripts":[
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+    
+
+}

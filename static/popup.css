@@ -1,0 +1,62 @@
+body{
+    background-color: #fefefe;
+    height: auto;
+    width: 600px;
+}
+
+.heading{
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.analyzeButton{
+    border: none;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+#bt{
+    padding: 10px 10px 10px 10px;
+    background-color:  #33d05d ;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: black;
+}
+.dot{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;    
+}
+.categories2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    text-align: left;
+    border: 1px;
+    outline: none;
+    transition: 0.1s;
+
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    display: none;
+    
+  }
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .results{
+      text-align: center;
+  }
+  .heading{
+      text-align: center;
+  }
